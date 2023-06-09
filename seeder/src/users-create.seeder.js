@@ -35,7 +35,7 @@ mutation CreateProfileMutation($firstname: String!, $lastname: String!) {
   }) => {
     try {
       const { createProfile } = await client.request(mutationCreateProfile, { firstname, lastname });
-      const { createAuthUser } = await client.request(mutationCreateAuthUser, { 
+      const { createAuthUser } = await client.request(mutationCreateAuthUser, {
         username,
         email,
         password,
