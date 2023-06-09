@@ -4,11 +4,13 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$body-bg: #fefefe;
+$body-bg: #f3f3f3;
 $body-color: #111;
 
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 $headings-font-family: 'Ubuntu', sans-serif;
+
+$primary: #F60;
 
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)

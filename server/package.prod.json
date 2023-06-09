@@ -20,6 +20,9 @@
     "passport-local": "^1.0.0",
     "regenerator-runtime": "^0.13.9"
   },
+  "devDependencies": {
+    "cpy-cli": "^4.1.0"
+  },
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "build": "npm run clean && npm run build:server",
